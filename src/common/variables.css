@@ -1,4 +1,23 @@
 :root{
     --bg-black:#0f0f0f;
     --white:#f8f8f8;
+    --bg-gray:#272727;
+    --link-blue:rgba(126,162,236);
+    /* --mobile-bg:#0f0f0f; */
+    --bg-light-gray:rgb(39,43,45,0.43);
 }
+
+
+@media all and (max-width:1279px){
+    .header-logo{
+        height: 53px;
+
+    }
+    .header-nav-item{
+        margin:0px 16px 0px 28px;
+    }
+}
+
+
+
+
