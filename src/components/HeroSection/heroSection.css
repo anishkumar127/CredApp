@@ -1,0 +1,13 @@
+.hero-section-wrapper{
+    position: relative;
+}
+
+.hero-section{
+    min-height: 100vh;
+    text-align: center;
+}
+
+.hero-heading{
+    font-size:106px;
+    font-weight:700;
+}
