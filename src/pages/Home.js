@@ -6,6 +6,8 @@ import FeelSpecial from '../components/FeelSpecial'
 import CredExperience from '../components/CredExperience'
 import CredSecurity from '../components/CredSecurity'
 import BrandsLove from '../components/BrandsLove'
+import WindowPeek from '../components/WindowPeek'
+import MobileScroll from '../components/MobileScroll'
 export const Home = () => {
   return (
    <>
@@ -15,6 +17,10 @@ export const Home = () => {
    <FeelSpecial/>
    <BrandsLove/>
    <CredExperience/>
+   <MobileScroll/>
+   <div className="non-mobile">
+   <WindowPeek/>
+   </div>
    <CredSecurity/>
    </>
   )
