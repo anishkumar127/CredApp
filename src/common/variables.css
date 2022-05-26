@@ -19,5 +19,13 @@
 }
 
 
+@media all and (max-width:767px){
+   .header{
+       padding-bottom:50px;
+   }
+}
+
+
+
 
 
