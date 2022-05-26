@@ -4,6 +4,7 @@ import ProductShowcase from '../components/ProductShowcase'
 import Header from '../components/common/header'
 import FeelSpecial from '../components/FeelSpecial'
 import CredExperience from '../components/CredExperience'
+import CredSecurity from '../components/CredSecurity'
 export const Home = () => {
   return (
    <>
@@ -12,6 +13,7 @@ export const Home = () => {
    <ProductShowcase />
    <FeelSpecial/>
    <CredExperience/>
+   <CredSecurity/>
    </>
   )
 }
