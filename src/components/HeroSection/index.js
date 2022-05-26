@@ -9,7 +9,7 @@ const HeroSection = () => {
   <div>pay credit card bill. earn guaranteed ₹200 back. </div>
 <div className="claim-anchor">
  claim now 
-<img src="https://web-images.credcdn.in/_next/assets/images/home-page/arrow.png" className="claim-arrow" alt="arrow"/>
+<img src="https://web-images.credcdn.in/_next/assets/images/home-page/arrow.png"  alt="arrow" className="claim-arrow"/>
 </div>
 </div>
     
