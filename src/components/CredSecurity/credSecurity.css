@@ -1,6 +1,6 @@
 .cred-security{
     background-color: var(--bg-purple);
-    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg.jpg);
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/security-bg.jpg);
 }
 
 @media all and (max-width:1279px){
@@ -11,7 +11,7 @@
 
 @media all and (max-width:767px){
 .cred-security{
-    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/deserve-more-bg-mobile.jpg);
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/security-bg-mobile.jpg);
     min-height: 1150px;
     background-position: right center ;
 }
