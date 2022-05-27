@@ -19,7 +19,7 @@ const AppRating = () => {
             <div className="flex">
         <div className="app-rating-value flex flex-col">
             4.8
-            <img src="https://web-images.credcdn.in/_next/assets/images/home-page/rating-ios.png" className="app-rating-starts" alt="rating"/>
+            <img src="https://web-images.credcdn.in/_next/assets/images/home-page/rating-ios.png" className="app-rating-stars" alt="rating"/>
 
         </div>
         <div className="app-rating-platform">
@@ -37,7 +37,7 @@ const AppRating = () => {
             <div className="flex">
         <div className="app-rating-value flex flex-col">
             4.7
-            <img src="https://web-images.credcdn.in/_next/assets/images/home-page/rating-android.png" className="app-rating-starts" alt="rating"/>
+            <img src="https://web-images.credcdn.in/_next/assets/images/home-page/rating-android.png" className="app-rating-stars" alt="rating"/>
 
         </div>
         <div className="app-rating-platform">
@@ -49,6 +49,9 @@ const AppRating = () => {
                     prefix={getAndroidPrefix()}
                 />
             </div>
+        </div>
+        <div className="only-mobile">
+        <Button buttonText="Download the app"/>
         </div>
     </div>
   )
