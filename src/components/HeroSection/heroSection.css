@@ -3,8 +3,9 @@
 }
 
 .hero-section{
-    min-height: 100vh;
+    min-height: 70vw;
     text-align: center;
+    /* margin: 55px 0px 0px; */
 }
 
 .hero-heading{
@@ -40,6 +41,8 @@
 .claim-anchor{
   color: var(--link-blue);  
   margin-left: 17px;
+  
+  
 }
 
 @media all and (max-width:1279px){
@@ -48,10 +51,13 @@
         line-height: 92px;
     }
 
+     .hero-claim-label {
+    flex-direction: column;
+  }
     .hero-subheading{
         font-size: 25px;
     }
-    .claim-anchor{
+    .claim-anchor{  
         margin-left: 0px;
     }
 }
@@ -61,6 +67,7 @@
         align-items: flex-start;
         text-align: left;
         min-height: 70vh;
+        /* margin: 55px 0px 0px -200px; */
     }
     .hero-heading{
         font-size: 55px;
