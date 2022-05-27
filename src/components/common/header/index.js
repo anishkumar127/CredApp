@@ -4,6 +4,7 @@ const Header = () => {
     const [showMobileMenu, setShowMobileMenu] = useState(false);
     const toggleMobileMenu = () =>{
         setShowMobileMenu(!showMobileMenu);
+         document.querySelector("body").classList.toggle("body-overflow-visible");
     }
   return (
     <div className="mobile-menu-wrapper">
