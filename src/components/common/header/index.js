@@ -8,7 +8,7 @@ const Header = () => {
     }
   return (
     <div className="mobile-menu-wrapper">
-    <div className={`mobile=menu only-mobile ${showMobileMenu ? "overlay":""}`}>
+    <div className={`mobile-menu only-mobile ${showMobileMenu ? "overlay":""}`}>
 <div className="mobile-navbar">
 <div className="mobile-nav-item">credit score check</div>
           <div className="mobile-nav-item">credit card bill payment</div>
