@@ -59,6 +59,12 @@
         flex-direction: column;
         padding: 70px 0px;
     }
+    .cred-story-heading-wrapper{
+        width: 100%;
+    }
+    .cred-story-detail{
+        width:100%
+    }
 }
 
 

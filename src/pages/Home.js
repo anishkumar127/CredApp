@@ -8,6 +8,9 @@ import CredSecurity from '../components/CredSecurity'
 import BrandsLove from '../components/BrandsLove'
 import WindowPeek from '../components/WindowPeek'
 import MobileScroll from '../components/MobileScroll'
+import CredStory from '../components/CredStory'
+import AppRating from '../components/AppRating'
+import Footer from '../components/Footer'
 export const Home = () => {
   return (
    <>
@@ -22,6 +25,9 @@ export const Home = () => {
    <WindowPeek/>
    </div>
    <CredSecurity/>
+   <CredStory/>
+   <AppRating/>
+   <Footer/>
    </>
   )
 }
